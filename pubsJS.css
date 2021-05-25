@@ -44,6 +44,9 @@ background: linear-gradient(90deg, rgba(0,8,34,1) 10%, rgba(0,0,0,1) 50%, rgba(0
   background-color:rgba(0, 110, 255, 0.247);
   padding: 20px 0px;
   margin-bottom: 20px;
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
   border-width:1px;
   border-style:solid;
   border-color:rgb(0, 153, 255);

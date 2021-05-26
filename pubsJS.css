@@ -101,6 +101,7 @@ body{
 .csl-entry{
   padding:1.3rem;
   font-size:1.2rem;
+  line-height: 1.5;
   background-color: rgba(0, 110, 255, 0.147);
   color:rgb(174, 216, 255);    
 }

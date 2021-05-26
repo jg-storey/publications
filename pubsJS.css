@@ -1,53 +1,24 @@
 body{
-    font-family:  'Roboto','Source Sans Pro','Open Sans','Lato',Helvetica, Arial, sans-serif;
-    font-size:100%;
-    margin:0;
-    padding:0;
-    /*background-color:rgb(0, 8, 34);*/
-    background: rgb(0,8,34);
-background: linear-gradient(90deg, rgba(0,8,34,1) 10%, rgba(0,0,0,1) 50%, rgba(0,8,34,1) 90%);
-    overflow-x: hidden; 
+  font-family:  'Roboto','Source Sans Pro','Open Sans','Lato',Helvetica, Arial, sans-serif;
+  font-size:1rem;
+  margin:0;
+  padding:0;
+  background: rgb(0,8,34);
+  background: linear-gradient(90deg, rgba(0,8,34,1) 10%, rgba(0,0,0,1) 50%, rgba(0,8,34,1) 90%);
+  overflow-x: hidden; 
 }
 
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-  margin-top:10px;
-  padding:4px;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover:not(.active) {
-  background-color: #111;
-}
-
-/* Style the "active" element to highlight the current page */
-.topnav a.active {
-  background-color: rgb(0,71,48);
-  color: white;
-}
 
 
 .headerdiv{
   overflow: hidden;
   position:relative;
-  /*width:100%;*/
   background-color:rgba(0, 110, 255, 0.247);
-  padding: 20px 0px;
-  margin-bottom: 20px;
-  margin-top:10px;
-  margin-left:10px;
-  margin-right:10px;
+  padding: 1.3rem 0;
+  margin-bottom: 1.3rem;
+  margin-top: 0.6rem;
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
   border-width:1px;
   border-style:solid;
   border-color:rgb(0, 153, 255);
@@ -56,72 +27,63 @@ background: linear-gradient(90deg, rgba(0,8,34,1) 10%, rgba(0,0,0,1) 50%, rgba(0
 
 .title{
   float:left;
-  /*width:75%;*/
   color: rgb(174, 216, 255);
-  text-shadow: 0 0 10px rgb(174, 216, 255, 0.5);
-    padding:20px 0px;
-    margin-left:20px;
-    /*font: 400 15px/1.8 sans-serif;*/
-    /*font-family: 'Electrolize', sans-serif;*/
-    
-    font-size:30px;
-    letter-spacing: 0px;
-    text-transform: uppercase;
+  text-shadow: 0 0 0.6rem rgb(174, 216, 255, 0.5);
+  padding:1.2rem 0;
+  margin-left:1.2rem;
+  /*font: 400 15px/1.8 sans-serif;*/
+  /*font-family: 'Electrolize', sans-serif;*/
+  font-size:1.9rem;
+  letter-spacing: 0;
+  text-transform: uppercase;
 }
 
-  .search-container {
-    float: right;
-    padding: 20px 0px;
-  }
+.search-container {
+  float: right;
+  padding: 1.2rem 0;
+}
 
-  .search-container input[type=text] {
-    padding: 6px;
-    margin-top: 0px;
-    margin-left: 0px;
-    font-size: 17px;
-    border: none;
-    color:rgb(174, 216, 255);
-    background: rgba(0, 110, 255, 0.347);
-  }
+.search-container input[type=text] {
+  padding: 0.4rem;
+  margin-top: 0;
+  margin-left: 0;
+  font-size: 1rem;
+  border: none;
+  color:rgb(174, 216, 255);
+  background: rgba(0, 110, 255, 0.347);
+}
 
-  .search-container input[type=text]:focus, textarea:focus{
-    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-  /*padding: 3px 0px 3px 3px;
-  margin: 5px 1px 3px 0px;*/
+.search-container input[type=text]:focus, textarea:focus{
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
   border: 1px solid rgba(81, 203, 238, 1);
-  }
+}
 
-  
-  .button-container{
-    float: right;
-  }
-  
 
-  .search-container button {
-  
-    padding: 6px 10px;
-    margin-top: 0px;
-    margin-right: 16px;
-    background: rgba(0, 110, 255, 0.347);
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-    color:rgb(174, 216, 255);
-  }
-  
-  
-  .search-container button:hover {
-    /*background: rgb(174, 216, 255);*/
-    background:  rgb(174, 216, 255);
-    color:rgba(0, 110, 255, 1.0);
-  }
+.button-container{
+  float: right;
+}
+
+
+.search-container button {
+  padding: 0.4rem 0.6rem;
+  margin-top: 0;
+  margin-right: 1rem;
+  background: rgba(0, 110, 255, 0.347);
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  color:rgb(174, 216, 255);
+}
+
+
+.search-container button:hover {
+  background:  rgb(174, 216, 255);
+  color:rgba(0, 110, 255, 1.0);
+}
   
 
-  /*.search-container button:focus {
-        color: rgba(0, 110, 255, 0.247);
-  }*/
-
-  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+ 
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
   .title, .search-container, .search-container input[type=text], .button-container, .button-container button{
     float: none;
@@ -135,73 +97,12 @@ background: linear-gradient(90deg, rgba(0,8,34,1) 10%, rgba(0,0,0,1) 50%, rgba(0
 }
 
 
-  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
-
- /* @media screen and (max-width: 600px) {
-  .topnav a, .search-container, .search-container input[type=text], .button-container, .button-container button  {
-    float: none;
-    display: block;
-    text-align: left;
-    width: 100%;
-    margin: 0;
-    padding: 14px;
-  }
-  .topnav input[type=text] {
-    border: 1px solid #ccc;
-  }
-  .button-container button{
-    border: 1px solid #000;
-  }
-
-}*/
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-    li a:hover:not(.active) {
-    background-color: #111;
-  }
-
-  .active {
-    background-color: rgb(0,71,48);
-  }
-
-
-h1{
-    background-color:rgb(0,71,48);
-    color: rgb(255,255,255);
-    padding: 20px 0px;
-    font: 400 15px/1.8 sans-serif;
-    font-size:30px;
-    letter-spacing: 0px;
-}
-
 
 .csl-entry{
-
-    padding:20px;
-    font-size:1.2em;
-    background-color: rgba(0, 110, 255, 0.147);
-    color:rgb(174, 216, 255);
-    
+  padding:1.3rem;
+  font-size:1.2rem;
+  background-color: rgba(0, 110, 255, 0.147);
+  color:rgb(174, 216, 255);    
 }
 
 .csl-entry:nth-child(even){
@@ -210,20 +111,19 @@ h1{
 
 .csl-bib-body{
   margin:auto;
-  max-width:800px;
+  max-width:90ch;
 }
 
 
 
 .csl-left-margin{
-    float:left;
-    margin-right:20px;
-    font-weight:bold;
+  float:left;
+  margin-right:1.3rem;
+  font-weight:bold;
 }
 
 .csl-right-inline{
-    margin-left: 50px;
-    
+  margin-left: 3rem;  
 }
 
 .csl-right-inline b{
@@ -231,12 +131,11 @@ h1{
 }
 
 .csl-right-inline i{
-  /*color:rgb(174, 216, 255);*/
   color:rgb(255, 253, 115);
 }
 
 .doi{
-    margin-left:50px;
+    margin-left:3rem;
 }
 
 .doi a{
@@ -247,23 +146,23 @@ h1{
 
 .credit {
     color: #9E9E9E;
-    font-size: 10px;
-    margin-bottom: 10px;
+    font-size: 0.6rem;
+    margin-bottom: 0.6rem;
 }
 
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
+  bottom: 1.6rem; /* Place the button at the bottom of the page */
+  right: 2rem; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: 1px dashed rgb(174, 216, 255); /* Remove borders */
   outline: none; /* Remove outline */
   background-color:rgba(0, 110, 255, 0.147); /* Set a background color */
   color:rgb(174, 216, 255); /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  font-size: 18px; /* Increase font size */
+  padding: 1rem; /* Some padding */
+  font-size: 1rem; /* Increase font size */
   /*box-shadow: 0 2px 5px 0 rgb(0, 153, 255, 0.26),0 2px 10px 0 rgb(0, 153, 255, 0.22);  */
 }
 
@@ -273,6 +172,7 @@ h1{
   box-shadow: 0 2px 5px 0 rgb(0, 153, 255, 0.26),0 2px 10px 0 rgb(0, 153, 255, 0.22);  
 }
 
+
 #canvas {
 	position: absolute;
 	display: block;
@@ -280,25 +180,3 @@ h1{
 	left: 0;
 	z-index: -1;
 }
-
-/* Page content */
-/*
-.content {
-  padding: 0px;
-}
-*/
-
-/* The sticky class is added to the header with JS when it reaches its scroll position */
-/*
-.sticky {
-  position: fixed;
-  top: 10px;
-  width: 100%
-}
-*/
-/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-/*
-.sticky + .content {
-  padding-top: 10px;
-}
-*/

@@ -88,9 +88,9 @@ body{
  
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  html { font-size: 1.5rem}
+  /*html { font-size: 1.5rem}*/
   
-  .title, .search-container, .search-container input[type=text], .button-container, .button-container button{
+  .search-container, .search-container input[type=text], .button-container, .button-container button{
     float: none;
     display: block;
     width:100%;
@@ -108,6 +108,7 @@ body{
   .button-container button, .search-container input[type=text]{
     border: 1px solid #000;
   }
+  
   
 }
 

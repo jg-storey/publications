@@ -270,3 +270,7 @@ input:checked + .slider:before {
     justify-content: right;
 }
 
+.doi span{
+  padding-top:0.5rem;
+  float:right;
+}

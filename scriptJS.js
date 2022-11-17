@@ -78,6 +78,14 @@ function myFunction() {
 } 
 */
 
+const currentBadgeState = localStorage.getItem("badges");
+    document.getElementById("badgeswitch").checked = true;
+    if(currentBadgeState == "hide"){
+      document.getElementById("badgeswitch").checked = false;
+      localStorage.setItem("badges", "hide");
+    }  
+    showBadges();
+
 
 var newScript = document.createElement("script");
         newScript.src = "https://badge.dimensions.ai/badge.js";

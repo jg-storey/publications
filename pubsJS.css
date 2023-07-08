@@ -30,9 +30,7 @@ body{
 }
 
 .homebutton{
-    position:absolute;
-    top:50%;
-    transform: translate(0,-50%);
+    float:left;
     margin-left:10px;
   }
 
@@ -45,7 +43,7 @@ img{
     display:block;
     margin-left:auto;
     margin-right:auto;
-    padding:10px;
+    padding:1.2rem 10px;
     max-width:80vw;
 }
 
@@ -54,7 +52,7 @@ img{
   color: rgb(174, 216, 255);
   text-shadow: 0 0 0.6rem rgb(174, 216, 255, 0.5);
   padding:1.2rem 0;
-  margin-left:70px;
+  margin-left:10px;
   /*font: 400 15px/1.8 sans-serif;*/
   /*font-family: 'Electrolize', sans-serif;*/
   font-size:1.9rem;

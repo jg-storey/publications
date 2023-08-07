@@ -1,0 +1,52 @@
+.headerdiv{
+    color:black;
+    border-style:none;
+    box-shadow:none;
+}
+
+.homebutton, .search-container, #badgeControl{
+    display:none;
+}
+
+.title{
+    font-size:1.2rem;
+    padding:0;
+    color:black;
+}
+
+.csl-bib-body{
+    /*all:initial;*/
+    box-shadow:none;
+}    
+
+.csl-entry{
+    font-size:1rem;
+    line-height:1;
+    padding-top:0;
+    padding-bottom:1rem;
+    color:black;
+    font-family:Arial;
+}
+
+.csl-right-inline i{
+    color:black;
+}
+
+.doi a{
+    color:blue;
+}
+
+#myBtn{
+    display:none;
+}
+
+  @media print {
+    #myBtn {
+      display: none;
+    }
+/*
+    .__dimensions_badge_embed__{
+        display:none;
+    }
+    */
+  }
